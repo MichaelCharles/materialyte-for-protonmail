@@ -1,7 +1,3 @@
-/**************************************/
-/* Variables                          */
-/**************************************/
-
 $font-stack: Roboto, "Noto Sans", Helvetica, "Open Sans", sans-serif;
 $dark-primary-color: #505061;
 $primary-color: #6a6f7c;
@@ -206,7 +202,7 @@ a.backToInbox i {
 }
 
 
-a.backToInbox:hover,
+a.backToInbox:hover, 
 button.primary:hover {
     background: #a3a7dd !important;
 }

@@ -1,4 +1,22 @@
 /**************************************/
+/* Variables                          */
+/**************************************/
+
+$font-stack: Roboto, "Noto Sans", Helvetica, "Open Sans", sans-serif;
+$dark-primary-color: #505061;
+$primary-color: #6a6f7c;
+$primary-color-highlight: #8a8f9c;
+$light-primary-color: #9397cd;
+$text-icons: white;
+$accent: #FFC107;
+$accent-highlight: #FFE127;
+$primary-text: #212121;
+$secondary-text: #757575;
+$divider: #BDBDBD;
+$background: #F2F2F2;
+
+
+/**************************************/
 /* IMPORTS                            */
 /**************************************/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
@@ -7,8 +25,8 @@
 /* GENERAL                            */
 /**************************************/
 body {
-    background: #f2f2f2 !important;
-    font-family: Roboto, sans-serif;
+    background: $background !important;
+    font-family: $font-stack;
     font-weight: 400;
 }
 
@@ -32,12 +50,12 @@ ul.menu {
 }
 
 .sidebar {
-    background: #f2f2f2 !important;
+    background: $background !important;
 }
 
 .sidebar a,
 .sidebar i {
-    color: #666 !important;
+    color: $secondary-text !important;
 }
 
 .sidebar a:hover {

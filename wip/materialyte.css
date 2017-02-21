@@ -3,7 +3,7 @@
 /**************************************/
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
 a.appVersion-container:after {
-  content: "Materialyte v0.0.1";
+  content: "Materialyte v0.0.2";
   display: block; }
 
 /**************************************/
@@ -54,10 +54,6 @@ ul.navigation a[href="/contacts"] span i,
 ul.navigation a.pm_trigger span i {
   font-size: 24px !important;
   margin-top: 8px !important; }
-  
-ul.navigation li a#tour-settings {
-  height: auto !important;
-}
 
 /**************************************/
 /* SIDEBAR                            */
@@ -222,5 +218,13 @@ button.composerHeader-btn:hover {
 
 .composerInputMeta-container button {
   box-shadow: none !important; }
+
+/**************************************/
+/* PATCHES                            */
+/* For when some styles need to be at */
+/* the end in order for them to work. */
+/**************************************/
+ul.navigation li a#tour-settings {
+  height: auto !important; }
 
 /*# sourceMappingURL=materialyte.css.map */

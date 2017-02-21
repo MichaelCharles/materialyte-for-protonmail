@@ -1,7 +1,14 @@
 /**************************************/
-/* IMPORTS                            */
-/****************************a**********/
+/* VERSION                            */
+/**************************************/
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+a.appVersion-container:after {
+  content: "Materialyte v0.2";
+  display: block; }
+
+/**************************************/
+/* IMPORTS                            */
+/**************************************/
 /**************************************/
 /* GENERAL                            */
 /**************************************/
@@ -175,5 +182,22 @@ button.primary:focus {
 /* Signature input in settings */
 div#signature {
   background: white !important; }
+
+/* Composer buttons */
+button.composerHeader-btn {
+  background: transparent !important;
+  color: white !important; }
+
+button.composerHeader-btn:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: none !important; }
+
+.composerSelectFrom-container button,
+.composerInputMeta-container button,
+.composerInputMeta-container button:hover {
+  background: none !important; }
+
+.composerInputMeta-container button {
+  box-shadow: none !important; }
 
 /*# sourceMappingURL=materialyte.css.map */

@@ -11,6 +11,13 @@ $secondary-text: #757575;
 $divider: #BDBDBD;
 $background: #F2F2F2;
 
+/**************************************/
+/* VERSION                            */
+/**************************************/
+a.appVersion-container:after {
+    content: "Materialyte v0.2";
+    display: block;
+}
 
 /**************************************/
 /* IMPORTS                            */
@@ -216,4 +223,26 @@ button.primary:focus {
 
 div#signature {
     background: white !important;
+}
+
+/* Composer buttons */
+
+button.composerHeader-btn {
+    background: transparent !important;
+    color: white !important;
+}
+
+button.composerHeader-btn:hover {
+    background: rgba(255,255,255,0.2) !important;
+    box-shadow: none !important;
+}
+
+.composerSelectFrom-container button,
+.composerInputMeta-container button,
+.composerInputMeta-container button:hover {
+    background: none !important;
+}
+
+.composerInputMeta-container button {
+    box-shadow: none !important;
 }

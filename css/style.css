@@ -1,0 +1,10 @@
+/*  JAPANESE FONT STACK
+
+	This is a basic Japanese language font stack. This will ensure that Japanese text will render with
+	the most common Japanese font already available to the user. As Japanese fonts tend to be very large
+	to account for the vast number of kanji, it is more common to use a font stack such as this than
+	to try to load a web font (although they do exist as well)  */
+.ja {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", sans-serif;
+}
+

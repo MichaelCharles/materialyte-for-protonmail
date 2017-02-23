@@ -8,3 +8,43 @@
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", sans-serif;
 }
 
+/*  BOILERPLATE DEFAULTS
+
+	Remove these for your own design.  */
+	
+body {
+	background: #f2f2f2;
+}
+
+.mdl-navigation__link > i {
+	width: 50px;
+	text-align: center;
+	
+}
+
+.page-content {
+	display: flex;
+	align-items: center;
+	width: 80%;
+	max-width: 600px;
+	margin: 0 auto;
+	min-height: 90vh;
+}
+
+.demo-card-wide.mdl-card {
+  width: 100%;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 250px;
+  background: url('../img/share.png') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+	.page-content {
+		margin-top: 50px;
+	}
+}

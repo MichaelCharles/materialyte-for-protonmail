@@ -1,0 +1,381 @@
+/**************************************
+ VERSION                        
+**************************************/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+a.appVersion-container {
+  color: #757575 !important; }
+
+div.storageProgress-container a:hover,
+.appVersion-container:hover {
+  background: none !important;
+  color: #8a8f9c !important; }
+
+a.appVersion-container:after {
+  content: "Materialyte v0.1";
+  display: block; }
+
+/**************************************
+ GENERAL                            
+**************************************/
+body {
+  background: #F2F2F2 !important;
+  font-family: Roboto, "Noto Sans", Helvetica, "Open Sans", sans-serif;
+  font-weight: 400; }
+
+/**************************************
+ NAVIGATION BAR                     
+**************************************/
+a.logo {
+  background: none !important; }
+
+#pm_headerDesktop {
+  box-shadow: 0 3px 6px rgba(33, 33, 33, 0.16), 0 3px 6px rgba(33, 33, 33, 0.23);
+  z-index: 9001; }
+
+ul.navigation .fa-angle-down,
+ul.navigation .navigation-title {
+  display: none !important; }
+
+ul.navigation li {
+  width: 80px !important;
+  margin-right: 0;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+ul.navigation a#tour-settings {
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important; }
+
+ul.navigation a#tour-settings span {
+  width: auto !important;
+  height: auto !important; }
+
+ul.navigation i {
+  font-size: 24px !important; }
+
+a.navigation-link {
+  height: auto;
+  width: auto; }
+
+ul.navigation .fa-users:hover:after,
+ul.navigation .fa-cogs:hover:after {
+  content: "Contacts";
+  background: #212121;
+  padding: .75em;
+  border-radius: 4px;
+  font-family: Roboto, "Noto Sans", Helvetica, "Open Sans", sans-serif;
+  font-size: 16px;
+  z-index: 20;
+  left: 100px;
+  display: block;
+  position: relative;
+  top: 53px;
+  left: -55px;
+  color: white; }
+
+ul.navigation .fa-cogs:hover:after {
+  content: "Settings" !important;
+  background: #212121;
+  left: 100px;
+  top: 55px;
+  left: -53px; }
+
+.pm_dropdown-opened {
+  border: 0px;
+  box-shadow: 0px 5px 10px 0px rgba(33, 33, 33, 0.3); }
+
+.navigationUser-dropdown .appVersion-container:after {
+  display: none; }
+
+.pm_dropdown-opened i.fa {
+  font-size: 14px !important; }
+
+/**************************************
+ SIDEBAR                            
+**************************************/
+ul.menu {
+  padding-top: 1em !important; }
+
+.sidebar {
+  background: #F2F2F2 !important;
+  font-family: Roboto, "Noto Sans", Helvetica, "Open Sans", sans-serif !important; }
+
+ul.menu a,
+ul.menu i {
+  color: #757575 !important; }
+
+.sidebar a:hover {
+  background: #BDBDBD; }
+
+.sidebar li.active {
+  background: #d2d2d2; }
+
+.sidebar li.active a,
+ul.menu li.active i {
+  color: #212121 !important; }
+
+.sidebar-btn-back {
+  margin-top: 1em; }
+
+.donateBtn-container,
+.menuLabel-title {
+  color: #757575 !important; }
+
+ul.menuLabel-container li a:hover {
+  background: transparent !important; }
+
+ul.menuLabel-container li.active {
+  background: transparent !important; }
+
+ul.menuLabel-container li.active span {
+  color: #212121 !important;
+  font-weight: 700 !important; }
+
+.donateBtn-container:hover,
+ul.menuLabel-container li span:hover {
+  color: #212121 !important; }
+
+em.navigationItem-counter {
+  color: #9397cd !important; }
+
+button.refresh {
+  color: #9397cd !important; }
+
+button.refresh:hover {
+  color: #b3b7ed !important; }
+
+/**************************************
+ MAIL DISPLAY                       
+**************************************/
+nav#pm_toolbar-desktop {
+  box-shadow: none;
+  padding-left: 1.25em; }
+
+div#conversation-list-columns {
+  overflow: scroll;
+  overflow-x: hidden;
+  border-right: 0px;
+  padding-right: 1em !important; }
+
+div.message-frame {
+  background: white !important; }
+
+div.conversation {
+  background-color: white !important;
+  border: 0px !important;
+  margin-bottom: 1px !important;
+  box-shadow: 0 3px 6px rgba(33, 33, 33, 0.16), 0 3px 6px rgba(33, 33, 33, 0.23); }
+
+div.marked span.subject-text,
+div.marked {
+  color: #212121 !important;
+  box-shadow: 0 10px 20px rgba(33, 33, 33, 0.19), 0 6px 6px rgba(33, 33, 33, 0.23); }
+
+div.marked {
+  margin: 5px auto !important; }
+
+div.marked:before {
+  z-index: 10; }
+
+div.active {
+  color: #212121 !important;
+  z-index: 5;
+  margin: 5px auto !important; }
+
+div.active:before {
+  width: 5px;
+  background: #BDBDBD;
+  height: 100%;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  content: ""; }
+
+div#conversation-list-rows,
+div#conversation-list-columns {
+  padding: 1em;
+  padding-top: 0;
+  box-sizing: border-box; }
+
+div.conversation label,
+div.conversation span,
+div.conversation-meta span,
+div.conversation-meta label {
+  background: white !important;
+  box-shadow: none !important; }
+
+a.sidebar-btn-back {
+  padding: 1em; }
+
+a.sidebar-btn-back,
+button.pm_button {
+  border: 0px transparent solid !important;
+  font-family: Roboto, "Noto Sans", Helvetica, "Open Sans", sans-serif !important;
+  font-weight: 300;
+  background: #F2F2F2 !important;
+  border: 0px !important;
+  border-radius: 3px !important;
+  box-shadow: 0 1px 3px rgba(33, 33, 33, 0.12), 0 1px 2px rgba(33, 33, 33, 0.24);
+  -webkit-transition: all 400ms ease !important;
+  transition: all 400ms ease !important;
+  color: #212121 !important; }
+
+a.sidebar-btn-back:hover,
+button.pm_button:hover {
+  background: white !important;
+  border: 0px !important;
+  border-radius: 3px !important;
+  box-shadow: 0 3px 6px rgba(33, 33, 33, 0.16), 0 3px 6px rgba(33, 33, 33, 0.23); }
+
+div#pm_thread article {
+  border: 0px !important;
+  box-shadow: 0px 3px 6px 0px rgba(33, 33, 33, 0.3) !important;
+  border-radius: 4px !important; }
+
+header#conversationHeader {
+  border: 0; }
+
+/**************************************
+ DRAFTS                             
+**************************************/
+span.folderConversations-container i {
+  color: #212121 !important; }
+
+/**************************************
+ WELCOME AREA                       
+**************************************/
+div#pm_latest header {
+  background: white;
+  border: 0px !important;
+  box-shadow: 0 3px 6px rgba(33, 33, 33, 0.16), 0 3px 6px rgba(33, 33, 33, 0.23);
+  margin: 0px 20px 20px 20px !important;
+  top: 5px !important;
+  position: relative; }
+
+div#pm_latest section {
+  border: 0px !important;
+  box-shadow: 0 3px 6px rgba(33, 33, 33, 0.16), 0 3px 6px rgba(33, 33, 33, 0.23);
+  background: white;
+  top: 5px !important;
+  position: relative; }
+
+/**************************************
+  BUTTONS AND INPUTS                 
+**************************************/
+/* Normal buttons */
+a.sidebar-btn-back,
+button.primary {
+  color: white !important;
+  background: #9397cd !important; }
+
+a.sidebar-btn-back i {
+  color: white !important; }
+
+a.sidebar-btn-back:hover,
+button.primary:hover {
+  background: #b3b7ed !important; }
+
+a.sidebar-btn-back:hover,
+button.primary:focus {
+  background: #b3b7ed !important; }
+
+/* Signature input in settings */
+div#signature {
+  background: white !important; }
+
+/* Composer buttons */
+button.composerHeader-btn {
+  background: transparent !important;
+  color: white !important; }
+
+button.composerHeader-btn:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: none !important; }
+
+.composerSelectFrom-container button,
+.composerInputMeta-container button,
+.composerInputMeta-container button:hover {
+  background: none !important; }
+
+.composerInputMeta-container button {
+  box-shadow: none !important; }
+
+div.composer-field-From select {
+  cursor: pointer !important; }
+
+div.composer {
+  z-index: 1001 !important; }
+
+/**************************************
+ FAB BUTTON                         
+**************************************/
+.sidebar button.compose {
+  position: fixed;
+  z-index: 1000;
+  display: block !important;
+  bottom: 1em;
+  right: 4em;
+  height: 60px !important;
+  width: 60px !important;
+  border-radius: 100px !important; }
+
+.sidebar button.compose {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  box-shadow: 0 3px 6px rgba(33, 33, 33, 0.16), 0 3px 6px rgba(33, 33, 33, 0.23);
+  border: 0px transparent solid !important;
+  -webkit-transition: all 400ms ease !important;
+  transition: all 400ms ease !important; }
+
+.sidebar button.compose:hover {
+  border-radius: 300px !important;
+  background-color: #b3b7ed !important;
+  box-shadow: 0 10px 20px rgba(33, 33, 33, 0.19), 0 6px 6px rgba(33, 33, 33, 0.23); }
+
+.sidebar button.compose:hover:before {
+  border-radius: 3px;
+  position: absolute;
+  display: block;
+  content: "Compose";
+  text-transform: none !important;
+  padding: 5px;
+  left: -80px;
+  background: #212121;
+  color: white;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  height: 20px !important;
+  line-height: 18px !important;
+  min-height: auto !important; }
+
+.sidebar button.compose span {
+  display: none; }
+
+.sidebar button.compose i {
+  display: block !important;
+  color: white !important;
+  font-size: 24px; }
+
+/**************************************
+ CONTACTS                           
+**************************************/
+div.contactWrapper {
+  background: white; }
+
+/*# sourceMappingURL=materialyte.css.map */
